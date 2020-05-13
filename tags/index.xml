@@ -6,9 +6,37 @@
     <description>Recent content in Tags on Little Apple&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://heatheryjy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Black-Scholes</title>
+      <link>https://heatheryjy.github.io/tags/black-scholes/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://heatheryjy.github.io/tags/black-scholes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brownian motion</title>
+      <link>https://heatheryjy.github.io/tags/brownian-motion/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://heatheryjy.github.io/tags/brownian-motion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>option</title>
+      <link>https://heatheryjy.github.io/tags/option/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://heatheryjy.github.io/tags/option/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随机过程 on Little Apple&#39;s Blog</title>
+    <link>https://heatheryjy.github.io/categories/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/</link>
+    <description>Recent content in 随机过程 on Little Apple&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://heatheryjy.github.io/categories/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>金融资产定价</title>
+      <link>https://heatheryjy.github.io/post/first/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://heatheryjy.github.io/post/first/</guid>
+      <description>Black-Scholes option pricing model European call option : $$ C = S_0N(d_1)-Ke^(-rT)N(d_2)\ d_1 = \frac{1}{\sigma\sqrt{T}}[\ln{\frac{S_0}{K}+(r+\frac{1}{2}\sigma^2)T}]\ d_2 = d_1 -\sigma\sqrt{T} $$</description>
+    </item>
+    
+  </channel>
+</rss>
