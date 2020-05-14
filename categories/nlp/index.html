@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>碳资产定价 - Little Apple&#39;s Blog</title>
+  <title>NLP · Little Apple&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Little Apple" /><meta name="description" content="使用机器学习的碳资产定价" /><meta name="keywords" content="EU ETS, prediction" />
+<meta name="author" content="Little Apple" /><meta name="description" content="Little Apple 的个人技术博客，记录个人开发中的点滴总结感悟和技术分享。" /><meta name="keywords" content="互联网, 编程, 计算机" />
 
 
 
@@ -26,7 +26,9 @@
 <meta name="generator" content="Hugo 0.70.0 with theme even" />
 
 
-<link rel="canonical" href="https://heatheryjy.github.io/post/%E7%A2%B3%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/" />
+<link rel="canonical" href="https://heatheryjy.github.io/categories/nlp/" />
+  <link href="https://heatheryjy.github.io/categories/nlp/index.xml" rel="alternate" type="application/rss+xml" title="Little Apple&#39;s Blog" />
+  <link href="https://heatheryjy.github.io/categories/nlp/index.xml" rel="feed" type="application/rss+xml" title="Little Apple&#39;s Blog" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,23 +41,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="碳资产定价" />
-<meta property="og:description" content="使用机器学习的碳资产定价" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://heatheryjy.github.io/post/%E7%A2%B3%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/" />
-<meta property="article:published_time" content="2020-05-14T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-05-14T00:00:00+00:00" />
-<meta itemprop="name" content="碳资产定价">
-<meta itemprop="description" content="使用机器学习的碳资产定价">
-<meta itemprop="datePublished" content="2020-05-14T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-05-14T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="259">
-
-
-
-<meta itemprop="keywords" content="机器学习,特征工程,预测," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="碳资产定价"/>
-<meta name="twitter:description" content="使用机器学习的碳资产定价"/>
+<meta property="og:title" content="NLP" />
+<meta property="og:description" content="Little Apple 的个人技术博客，记录个人开发中的点滴总结感悟和技术分享。" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://heatheryjy.github.io/categories/nlp/" />
+<meta property="og:updated_time" content="2020-05-13T00:00:00+00:00" />
+<meta itemprop="name" content="NLP">
+<meta itemprop="description" content="Little Apple 的个人技术博客，记录个人开发中的点滴总结感悟和技术分享。"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="NLP"/>
+<meta name="twitter:description" content="Little Apple 的个人技术博客，记录个人开发中的点滴总结感悟和技术分享。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -115,80 +109,29 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <article class="post">
-    
-    <header class="post-header">
-      <h1 class="post-title">碳资产定价</h1>
-
-      <div class="post-meta">
-        <span class="post-time"> 2020-05-14 </span>
-        <div class="post-category">
-            <a href="/categories/%E9%87%91%E8%9E%8D/"> 金融 </a>
-            </div>
-        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+          <section id="archive" class="archive">
+  <div class="archive-title category">
+        <h2 class="archive-name">NLP</h2>
       </div>
-    </header>
 
-    <div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Contents</h2>
-  <div class="post-toc-content">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#针对ols和glm的特殊处理">针对OLS和GLM的特殊处理</a></li>
-    <li><a href="#ann结果不符合预期思考原因">ANN结果不符合预期，思考原因？</a></li>
-  </ul>
-</nav>
-  </div>
-</div>
-    <div class="post-content">
-      <h1 id="如何处理高相关性的特征">如何处理高相关性的特征？</h1>
-<p>1.根据专业知识进行分析，尽可能的保留含最大信息的特征
-2.使用正则化进行特征选择
-因此我们采用ElasticNet模型，根据特征系数确定最终的输入特征集：[&lsquo;ESI&rsquo;, &lsquo;CRB_indus&rsquo;, &lsquo;switch_ESI&rsquo;, &lsquo;UK_indus&rsquo;, &lsquo;UK_ESI&rsquo;,
-&lsquo;Rotterdam_confidence&rsquo;]</p>
-<h2 id="针对ols和glm的特殊处理">针对OLS和GLM的特殊处理</h2>
-<p>经过ElasticNet选择的特征仍然存在switch_ESI和UK_ESI的高相关性，根据swtich的计算方式，我们保留含有最大信息的swtich_ESI特征。因此，保证了OLS回归的稳健性。同理，我们也对GLM做同样的特征选择。</p>
-<h2 id="ann结果不符合预期思考原因">ANN结果不符合预期，思考原因？</h2>
-
+  <div class="archive-post">
+      <span class="archive-post-time">
+        2020-05-13
+      </span>
+      <span class="archive-post-title">
+        <a href="/post/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/" class="archive-post-link">
+          自然语言处理1
+        </a>
+      </span>
     </div>
+</section>
 
-    <div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">Author</span>
-    <span class="item-content">Little Apple</span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">LastMod</span>
-    <span class="item-content">
-        2020-05-14
-        
-    </span>
-  </p>
+<nav class="pagination">
   
   
-</div>
-<footer class="post-footer">
-      <div class="post-tags">
-          <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a>
-          <a href="/tags/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B/">特征工程</a>
-          <a href="/tags/%E9%A2%84%E6%B5%8B/">预测</a>
-          </div>
-      <nav class="post-nav">
-        
-        <a class="next" href="/post/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%862/">
-            <span class="next-text nav-default">自然语言处理2</span>
-            <span class="next-text nav-mobile">Next</span>
-            <i class="iconfont icon-right"></i>
-          </a>
-      </nav>
-    </footer>
-  </article>
+</nav>
         </div>
         
-
-  
-
-  
 
       </div>
     </main>
@@ -240,15 +183,6 @@
 
 
 <script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      TeX: {equationNumbers: {autoNumber: "AMS"}},
-      showProcessingMessages: false,
-      messageStyle: 'none'
-    };
-  </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
 
 

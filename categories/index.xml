@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Little Apple&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://heatheryjy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>金融</title>
       <link>https://heatheryjy.github.io/categories/%E9%87%91%E8%9E%8D/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://heatheryjy.github.io/categories/%E9%87%91%E8%9E%8D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://heatheryjy.github.io/categories/nlp/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://heatheryjy.github.io/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>分词算法</title>
+      <link>https://heatheryjy.github.io/categories/%E5%88%86%E8%AF%8D%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://heatheryjy.github.io/categories/%E5%88%86%E8%AF%8D%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     
