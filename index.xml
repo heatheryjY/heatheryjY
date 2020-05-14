@@ -12,20 +12,29 @@
     
     
     <item>
+      <title>自然语言处理2</title>
+      <link>https://heatheryjy.github.io/post/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%862/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://heatheryjy.github.io/post/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%862/</guid>
+      <description>问题来源 1.错别字（语料库里没有这个词触发纠正） 2.不是错别字，而是出现类似单复数等错误，由语言模型触发） 方法 思路：通过插入，删除以及替换三</description>
+    </item>
+    
+    <item>
       <title>Second</title>
-      <link>https://heatheryjy.github.io/post/second/</link>
+      <link>https://heatheryjy.github.io/post/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</link>
       <pubDate>Wed, 13 May 2020 15:57:52 +0800</pubDate>
       
-      <guid>https://heatheryjy.github.io/post/second/</guid>
+      <guid>https://heatheryjy.github.io/post/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</guid>
       <description>test 2 TEST TWO </description>
     </item>
     
     <item>
       <title>First</title>
-      <link>https://heatheryjy.github.io/post/third/</link>
+      <link>https://heatheryjy.github.io/post/%E7%A2%B3%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/</link>
       <pubDate>Wed, 13 May 2020 15:48:42 +0800</pubDate>
       
-      <guid>https://heatheryjy.github.io/post/third/</guid>
+      <guid>https://heatheryjy.github.io/post/%E7%A2%B3%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/</guid>
       <description>test test test 哈哈哈哈</description>
     </item>
     
