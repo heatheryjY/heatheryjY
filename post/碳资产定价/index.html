@@ -142,12 +142,13 @@
 </div>
     <div class="post-content">
       <h1 id="如何处理高相关性的特征">如何处理高相关性的特征？</h1>
-<p>1.根据专业知识进行分析，尽可能的保留含最大信息的特征
-2.使用正则化进行特征选择
-因此我们采用ElasticNet模型，根据特征系数确定最终的输入特征集：[&lsquo;ESI&rsquo;, &lsquo;CRB_indus&rsquo;, &lsquo;switch_ESI&rsquo;, &lsquo;UK_indus&rsquo;, &lsquo;UK_ESI&rsquo;,
+<p>1.根据专业知识进行分析，尽可能的保留含最大信息的特征</p>
+<p>2.使用正则化进行特征选择</p>
+<p>因此我们采用ElasticNet模型，根据特征系数确定最终的输入特征集：[&lsquo;ESI&rsquo;, &lsquo;CRB_indus&rsquo;, &lsquo;switch_ESI&rsquo;, &lsquo;UK_indus&rsquo;, &lsquo;UK_ESI&rsquo;,
 &lsquo;Rotterdam_confidence&rsquo;]</p>
 <h2 id="针对ols和glm的特殊处理">针对OLS和GLM的特殊处理</h2>
-<p>经过ElasticNet选择的特征仍然存在switch_ESI和UK_ESI的高相关性，根据swtich的计算方式，我们保留含有最大信息的swtich_ESI特征。因此，保证了OLS回归的稳健性。同理，我们也对GLM做同样的特征选择。</p>
+<p>经过ElasticNet选择的特征仍然存在switch_ESI和UK_ESI的高相关性，根据swtich的计算方式，我们保留含有最大信息的swtich_ESI特征。因此，保证了OLS回</p>
+<p>归的稳健性。同理，我们也对GLM做同样的特征选择。</p>
 <h2 id="ann结果不符合预期思考原因">ANN结果不符合预期，思考原因？</h2>
 
     </div>
